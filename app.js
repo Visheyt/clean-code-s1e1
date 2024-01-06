@@ -121,6 +121,8 @@ var taskCompleted=function(){
 
     //Append the task list item to the #completed-tasks
     var listItem=this.parentNode;
+    listItem.className = 'todo todo_completed'
+    listItem.querySelector('.todo__btn_edit').innerText = "Edit"
     completedTasksHolder.appendChild(listItem);
     bindTaskEvents(listItem, taskIncomplete);
 
