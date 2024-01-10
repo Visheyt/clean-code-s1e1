@@ -17,8 +17,8 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-  .matrix { 
+@media (max-width: 768px) {
+  .matrix {
     text-align: center;
   }
 }
@@ -28,7 +28,7 @@
   margin: 0 auto 0;
 }
 .todo__input,
-.todo__label{
+.todo__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -45,7 +45,7 @@ h3 {
   list-style: none;
 }
 input,
-button{
+button {
   outline: none;
 }
 .todo__btn {
@@ -152,5 +152,5 @@ button{
 }
 
 .todo_edit .todo__label {
-  display:none;
+  display: none;
 }
