@@ -10,7 +10,7 @@
   display: block;
   text-align: right;
 }
-.matrix img {
+.matrix__img {
   width: 100%;
 }
 .matrix .matrix__info {
